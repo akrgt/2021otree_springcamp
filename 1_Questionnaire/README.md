@@ -50,23 +50,10 @@ otree startapp questionnaire
 ## modelsの定義：
 * models.pyでは動作を定義します．
 
-### 追加のパッケージ
-
-```Python
-from django import forms
-```
-* selectをラジオボタンじゃなくて，複数の中から選ぶために必要です．
-
-```Python
-from otree.api...
-```
-のひと固まりの後に入れておきましょう．
-
 
 ### Constantsクラスの定義：基本設計
 
 * questionnaireフォルダ内のmodels.pyを開く
-* Constantsクラスの中で人数・繰り返し回数・初期保有額・係数を設定する．
 
 ```Python
 class Constants(BaseConstants):
@@ -104,6 +91,7 @@ class Player(BasePlayer):
                                         ],
                                 verbose_name='この回答は、どの電子機器で回答していますか？')
 ```
+
 #### Fieldとは：
 - BooleanField：0or1の値を取る．
 - CurrencyField：金額やポイントなどを示す．
@@ -114,6 +102,8 @@ class Player(BasePlayer):
 - LongStringField：長い文字列
 
 その他，Pythonで利用できるフィールドは基本的に利用できるはず．
+
+詳細は[その他トピック](https://github.com/akrgt/2021otree_springcamp/tree/master/etc)にあります．
 
 参考：[Django: モデルフィールドリファレンスの一覧](https://qiita.com/nachashin/items/f768f0d437e0042dd4b3)
 
