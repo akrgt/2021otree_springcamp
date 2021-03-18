@@ -34,7 +34,7 @@
 * `choices`を指定すると，自動的に選択式で入力することができます．
 
 
-## ラジオボタン（垂直）で入力する方法
+## ラジオボタン（縦長）で入力する方法
 
 ```Python
     q_age = models.IntegerField(verbose_name='あなたの年齢を教えてください．',
@@ -42,10 +42,10 @@
                                         initial=None,  
                                         widget=widgets.RadioSelect)
 ```
-* `widget=widgets.RadioSelect`を指定することで，ラジオボタン（垂直）で入力できます．
+* `widget=widgets.RadioSelect`を指定することで，ラジオボタン（縦長）で入力できます．
 
 
-## ラジオボタン（水平）で入力する方法
+## ラジオボタン（横長）で入力する方法
 
 
 ```Python
@@ -54,7 +54,7 @@
                                         initial=None,  
                                         widget=widgets.RadioSelectHorizontal)
 ```
-* `widgets.RadioSelectHorizontal`を指定することで，ラジオボタン（水平）で入力できます．
+* `widgets.RadioSelectHorizontal`を指定することで，ラジオボタン（横長）で入力できます．
 
 
 ## Sliderで入力する方法①

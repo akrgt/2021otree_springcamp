@@ -12,11 +12,13 @@
 ## [その他トピック](https://github.com/akrgt/2021otree_springcamp/tree/master/etc)
 
 
-# その他補足資料
+# 補足資料
 
 * ## [コチラ](https://speakerdeck.com/akrgt/dong-jing-gong-ye-da-xue-otreeniyoruonrainjing-ji-shi-yan-seminabu-zu-zi-liao)
 
 * 過去の東工大でのトーク資料です．
+
+
 
 # その他
 
@@ -27,6 +29,7 @@
 * [公式オンラインマニュアル](https://otree.readthedocs.io/en/latest/)
 * [oTreeのオンラインマニュアルを和訳したり何だりしています．](https://akrgt.gitbook.io/otree-jp/)
   * 最近少し手が回らずサボリ気味です．修正作業を行っておりますので，見にくい点・わかりにくい点などがあってもお許しください
+
 
 ## Django関連資料
 
