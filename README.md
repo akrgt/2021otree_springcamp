@@ -1,11 +1,13 @@
 
 # 資料
 
-## [概要](https://github.com/akrgt/otree_2020titech/tree/master/0_outline)
+## [概要](https://github.com/akrgt/2021otree_springcamp/tree/master/0_outline)
 
-## [質問紙](https://github.com/akrgt/otree_2020titech/tree/master/1_Questionnaire)
+## [質問紙](https://github.com/akrgt/2021otree_springcamp/tree/master/1_Questionnaire)
 
-## [入力方法](https://github.com/akrgt/otree_2020titech/tree/master/2_input)
+## [入力方法](https://github.com/akrgt/2021otree_springcamp/tree/master/2_input)
+
+## [その他トピック](https://github.com/akrgt/2021otree_springcamp/tree/master/etc)
 
 
 # その他補足資料
